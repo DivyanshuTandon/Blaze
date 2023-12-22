@@ -44,7 +44,7 @@ function Home() {
         formData.append(key, contactDetails[key]);
       }
 
-      const response = await axios.post('http://localhost:8000/contact/contacts', formData, {
+      const response = await axios.post('https://blaze1.onrender.com/contact/contacts', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -104,7 +104,7 @@ function Home() {
 
   const handleDownloadBrochure = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/contact/download-brochure', {
+      const response = await axios.get('https://blaze1.onrender.com/contact/download-brochure', {
         responseType: 'blob', 
       });
 
