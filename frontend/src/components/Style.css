@@ -418,7 +418,6 @@ max-width: calc(100% - 20px);
   left: 20px;
   padding: 4px 8.5px;
 }
-
 .view-broch-inner {
 padding: 22px 10px; 
 max-width: calc(100% - 20px); 
@@ -427,7 +426,6 @@ max-width: calc(100% - 20px);
 .logo1 img {
   width: 100%;
 }
-
 .db-btn {
   font-size: 13px;
   margin-top: 15px;
